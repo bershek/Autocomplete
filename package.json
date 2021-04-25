@@ -1,0 +1,44 @@
+{
+  "name": "my-graphql-react-project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.3.15",
+    "@apollo/react-hooks": "^4.0.0",
+    "apollo-boost": "^0.4.4",
+    "apollo-cache-inmemory": "^1.6.3",
+    "apollo-client": "^2.6.4",
+    "apollo-link": "latest",
+    "apollo-link-context": "^1.0.20",
+    "apollo-link-error": "latest",
+    "apollo-link-http": "^1.5.17",
+    "graphql": "^15.5.0",
+    "graphql-tag": "^2.11.0",
+    "lodash": "^4.17.21",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts --max-http-header-size=60000 start",
+    "build": "react-scripts --max-http-header-size=60000 build",
+    "test": "react-scripts  --max-http-header-size=60000 test",
+    "eject": "react-scripts  --max-http-header-size=60000 eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "graphql-tag": "^2.11.0",
+    "react-apollo": "^3.1.5"
+  }
+}

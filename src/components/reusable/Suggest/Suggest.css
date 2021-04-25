@@ -1,0 +1,20 @@
+.suggest-list {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  border-top: none;
+  border-color: rgb(118, 118, 118);
+}
+.suggest-list_item {
+  font-size: 20px;
+  line-height: 20px;
+  padding: 10px 15px;
+  color: #918f8f;
+  cursor: pointer;
+}
+.suggest-list_item:hover {
+  color: #000000;
+}
